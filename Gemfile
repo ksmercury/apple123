@@ -7,6 +7,9 @@ gem 'rails', '3.0.5'
 
 gem 'mysql2'
 gem 'spree'
+gem 'spree_heroku'
+gem 'aws-s3'
+gem 'taps', '0.3.20.pre1'
 
 # Use unicorn as the web server
 # gem 'unicorn'
