@@ -1,0 +1,13 @@
+#heroku config:add S3_KEY=[AKIAIVYHAEHKF5LHVGVQ]
+#heroku config:add S3_SECRET=[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]
+#heroku config:add S3_BUCKET=[edw]
+
+common: &common
+  access_key_id: AKIAIVYHAEHKF5LHVGVQ
+  secret_access_key: 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
+  development:
+  bucket: edw_development
+  <<: *common
+  production:
+  bucket: edw_production
+  <<: *common
